@@ -1,0 +1,6 @@
+apply plugin: "checkstyle"
+
+checkstyle {
+  toolVersion = "8.7"
+  configFile = file("gradle/modules/checkstyle/google-checkstyle.xml")
+}
